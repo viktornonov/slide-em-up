@@ -14,14 +14,11 @@
     <section>
       <header class="slide">
         <h1><%= meta.title %></h1>
-        <h2><%= meta.author %></h2>
+        <div style="text-align: center"><%= meta.author %></div>
       </header>
     </section>
     <% sections.each do |section| %>
       <section>
-        <header class="slide">
-          <h1><%= section.title %></h1>
-        </header>
         <% section.slides.each do |slide| %>
           <section class="slide <%= slide.classes %>">
             <%= slide.html %>

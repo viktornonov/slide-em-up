@@ -62,11 +62,14 @@ strong, b {
 	section.slide h1 {
 		font-weight: bold;
 		font-size: 1.0in;
+    line-height: 1.0in;
 	}
 
 	.slide h2 {
 		font-weight: bold;
 		font-size: 0.8in;
+    line-height: 0.8in;
+    margin-bottom: 1em;
 	}
 
 	.slide h3 {
